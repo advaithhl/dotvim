@@ -17,3 +17,8 @@ set smarttab
 set relativenumber
 set numberwidth=4
 
+"Color preferences
+highlight Comment ctermfg=8
+highlight PreProc ctermfg=11
+highlight LineNr ctermfg=8
+
