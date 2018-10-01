@@ -14,6 +14,7 @@ set shiftwidth=4
 set smarttab
 
 "Numbering
+set number
 set relativenumber
 set numberwidth=4
 
