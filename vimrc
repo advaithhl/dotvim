@@ -26,3 +26,6 @@ highlight Comment ctermfg=8
 highlight PreProc ctermfg=11
 highlight LineNr ctermfg=8
 
+"Keymapping
+map - $
+
