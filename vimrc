@@ -1,6 +1,9 @@
 " Pathogen for Vim
 execute pathogen#infect()
 
+" NerdTREE
+map <C-u> :NERDTreeToggle<CR>
+
 " Basic stuff
 syntax on
 set autoindent
