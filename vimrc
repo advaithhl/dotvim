@@ -1,6 +1,15 @@
 " Pathogen for Vim
 execute pathogen#infect()
 
+" Auto bracket matching
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
 " NerdTREE
 map <C-u> :NERDTreeToggle<CR>
 
